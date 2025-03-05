@@ -1,0 +1,25 @@
+{
+	"file": "GeoLite2-City.mmdb",
+	"langFormat": {
+		"en": {
+			"connector": ", ",
+			"seq": [
+				{ "type": "key", "value": "city" },
+				{ "type": "subdiv", "value": "reverse" },
+				{ "type": "key", "value": "country" },
+				{ "type": "key", "value": "continent" }
+			],
+			"localeName": "en"
+		},
+		"zh-CN": {
+			"connector": " ",
+			"seq": [
+				{ "type": "key", "value": "continent" },
+				{ "type": "key", "value": "country" },
+				{ "type": "subdiv", "value": "" },
+				{ "type": "key", "value": "city" }
+			],
+			"localeName": "zh-CN"
+		}
+	}
+}
